@@ -3,9 +3,18 @@
 
 #include <iostream>
 #include <string>
+#include <ctime>
+#include "Game.h"
+#include "Player.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Game game;
+    game.GetWord();
+    /*Player player;
+    player.letterGuessing();*/
+
+
 }
+
 
