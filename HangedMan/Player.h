@@ -4,8 +4,11 @@ class Player
 public:
     Player();
     char letterGuessing();
+    char GetLastLetter();
+    unsigned int GetGuesses();
+    void WrongGuess();
 private:
-    unsigned int guess = 0;
-    const unsigned int MAX_TRY = 6;
+    unsigned int wrongGuesses = 0;
+    char lastLetter;
 };
 

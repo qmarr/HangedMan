@@ -10,10 +10,7 @@
 int main()
 {
     Game game;
-    game.GetWord();
-    /*Player player;
-    player.letterGuessing();*/
-
+    game.Play();
 
 }
 
